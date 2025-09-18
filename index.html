@@ -12,6 +12,13 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
         
+         html, body {
+            margin: 0 !important;
+            padding: 0 !important;
+            width: 100% !important;
+            overflow-x: hidden !important;
+        }
+        
         .tripwire-container-yrslv-ultra * { 
             box-sizing: border-box; 
             margin: 0;
@@ -521,32 +528,7 @@
             </a>
         </div>
     </div>
-    <script>
-    window.addEventListener('load', function() {
-        const myLink = "https://goo.su/TIzF8at";
-        const myTextLeft = "Конструктор";
-        const myTextRight = "Чат-Ботов Сайтов";
-
-        const footer = document.getElementById('lpscopy');
-        if (!footer) return;
-
-        const linkElement = footer.querySelector('.lpslabel__link');
-        const textLeftElement = footer.querySelector('.lpslabel__txtleft');
-        const textRightElement = footer.querySelector('.lpslabel__txtright');
-
-        if (linkElement && textLeftElement && textRightElement) {
-            linkElement.href = myLink;
-            textLeftElement.textContent = myTextLeft;
-            textRightElement.textContent = myTextRight;
-            linkElement.target = "_blank";
-            footer.style.background = 'RGB(33, 32, 54)';
-            footer.style.borderTop = '1px solid rgba(255, 255, 255, 0.1)';
-            footer.style.color = '#cbd5e1';
-            linkElement.style.color = 'inherit';
-            linkElement.style.textDecoration = 'none';
-        }
-    });
-    </script>
+    
 </div>
 
 </body>
